@@ -13,6 +13,7 @@ git clone https://github.com/Hel1mo/screen-time.git
 cd screen-time
 make install
 ```
+Log out and back in, then enable it on GNOME Extensions.
 
 <h2>Features</h2>
 
@@ -27,6 +28,3 @@ make install
 
 <h2>License</h2>
 Distributed under the GNU General Public License. See `LICENSE.txt` for more information.
-
-
-
