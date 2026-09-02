@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <schema
+      id="org.gnome.shell.extensions.screentime"
+      path="/org/gnome/shell/extensions/screentime/">
+
+    <key name="show-seconds" type="b">
+      <default>true</default>
+      <summary>Show seconds</summary>
+      <description>
+        Show seconds in the screen time display.
+      </description>
+    </key>
+
+    <key name="show-app-breakdown" type="b">
+      <default>true</default>
+      <summary>Show app breakdown</summary>
+      <description>
+        Show time spent in individual applications.
+      </description>
+    </key>
+
+    <key name="reset-data" type="b">
+      <default>false</default>
+      <summary>Reset today's data</summary>
+      <description>
+        Reset the current day's screen time and app usage.
+      </description>
+    </key>
+    <key name="bar-color-mode" type="s">
+    <default>'accent'</default>
+    <summary>Graph colour mode</summary>
+    <description>Whether to use the system accent colour or a custom colour.</description>
+</key>
+
+<key name="bar-color" type="s">
+    <default>'#3584e4'</default>
+    <summary>Custom graph colour</summary>
+    <description>The custom colour used for graph bars.</description>
+</key>
+
+<key name="notifications-enabled" type="b">
+    <default>true</default>
+    <summary>Enable screen time reminders</summary>
+</key>
+
+<key name="notification-interval" type="i">
+    <default>1800</default>
+    <summary>Notification interval in seconds</summary>
+</key>
+
+  </schema>
+
+</schemalist>

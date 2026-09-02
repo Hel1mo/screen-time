@@ -1,0 +1,47 @@
+.screentime-section-header {
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.screentime-graph {
+    spacing: 4px;
+    padding: 8px 4px;
+}
+
+.screentime-graph-column {
+    padding: 4px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.screentime-graph-column:hover {
+}
+
+.screentime-graph-column-selected {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.screentime-graph-time {
+    min-height: 20px;
+    font-size: 9pt;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.screentime-bar-area {
+    height: 70px;
+}
+
+.screentime-graph-bar {
+    border-radius: 6px 6px 2px 2px;
+}
+
+.screentime-graph-bar-selected {
+}
+
+.screentime-graph-day {
+    margin-top: 4px;
+    font-size: 9pt;
+    opacity: 0.7;
+    text-align: center;
+}

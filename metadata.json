@@ -1,0 +1,7 @@
+{
+  "name": "Screen Time",
+  "description": "Track daily screen time and application usage",
+  "uuid": "screentime@helimo",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.screentime"
+}
